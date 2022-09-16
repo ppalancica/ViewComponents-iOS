@@ -17,6 +17,7 @@
 		B3707F1128CFD4BD00405F99 /* ViewComponents_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3707F1028CFD4BD00405F99 /* ViewComponents_iOSTests.swift */; };
 		B3707F1B28CFD4BD00405F99 /* ViewComponents_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3707F1A28CFD4BD00405F99 /* ViewComponents_iOSUITests.swift */; };
 		B3707F1D28CFD4BD00405F99 /* ViewComponents_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3707F1C28CFD4BD00405F99 /* ViewComponents_iOSUITestsLaunchTests.swift */; };
+		B39E0B0A28D51A2A003C1CDF /* RootViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39E0B0928D51A2A003C1CDF /* RootViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B3707F1628CFD4BD00405F99 /* ViewComponents-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViewComponents-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3707F1A28CFD4BD00405F99 /* ViewComponents_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComponents_iOSUITests.swift; sourceTree = "<group>"; };
 		B3707F1C28CFD4BD00405F99 /* ViewComponents_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComponents_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B39E0B0928D51A2A003C1CDF /* RootViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				B3707EF628CFD4BB00405F99 /* AppDelegate.swift */,
-				B3707EF828CFD4BB00405F99 /* SceneDelegate.swift */,
-				B3707EFA28CFD4BB00405F99 /* ViewController.swift */,
-				B3707EFC28CFD4BB00405F99 /* Main.storyboard */,
 				B3707F0228CFD4BD00405F99 /* Assets.xcassets */,
-				B3707F0428CFD4BD00405F99 /* LaunchScreen.storyboard */,
 				B3707F0728CFD4BD00405F99 /* Info.plist */,
+				B3707F0428CFD4BD00405F99 /* LaunchScreen.storyboard */,
+				B3707EFC28CFD4BB00405F99 /* Main.storyboard */,
+				B39E0B0928D51A2A003C1CDF /* RootViewControler.swift */,
+				B3707EF828CFD4BB00405F99 /* SceneDelegate.swift */,
 				B3707EFF28CFD4BB00405F99 /* ViewComponents_iOS.xcdatamodeld */,
+				B3707EFA28CFD4BB00405F99 /* ViewController.swift */,
 			);
 			path = "ViewComponents-iOS";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			files = (
 				B3707EFB28CFD4BB00405F99 /* ViewController.swift in Sources */,
 				B3707EF728CFD4BB00405F99 /* AppDelegate.swift in Sources */,
+				B39E0B0A28D51A2A003C1CDF /* RootViewControler.swift in Sources */,
 				B3707F0128CFD4BB00405F99 /* ViewComponents_iOS.xcdatamodeld in Sources */,
 				B3707EF928CFD4BB00405F99 /* SceneDelegate.swift in Sources */,
 			);
