@@ -5,4 +5,19 @@
 //  Created by Pavel Palancica on 9/16/22.
 //
 
-import Foundation
+import UIKit
+
+class RootViewControler: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        viewWillAppear(animated)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        viewDidAppear(animated)
+    }
+}
